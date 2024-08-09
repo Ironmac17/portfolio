@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="dimmingOverlay"></div>
+        <div id="navContainer">
+            <a href="#">
+                <h1 id="pageName">NA</h1>
+            </a>
+            <div class="desktop">
+                <ul>
+                    <li>
+                        <a class="link" id="aboutLink" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="link" id="skillsLink" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="link" id="projectLink" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="link" id="contactLink" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="dimmingOverlay"></div>
+    <section id="navMenu">
+        <ul>
+            <li>
+                <a class="linkMobile" id="aboutLinkMobile" href="#about">About</a>
+            </li>
+            <li>
+                <a class="linkMobile" id="skillsLinkMobile" href="#skills">Skills</a>
+            </li>
+            <li>
+                <a class="linkMobile" id="projectLinkMobile" href="#projects">Projects</a>
+            </li>
+            <li>
+                <a class="linkMobile" id="contactLinkMobile" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </section>
+    <header id="landing">
+        <div class="img_home">
+            <img src="Screenshot 2024-07-05 at 1.17.45 PM.png" class="img_home_banner">
+        </div>
+        <div id="sideSect">
+            <div id="introText">
+                <h1>
+                    Hello!<br>I'm Nimish Agrawal
+                </h1>
+                <p>I am an Undergraduate and a Web Developer </p>
+            </div>
+            <ul id="btn_group">
+                <li>
+                    <a href="Resume_Nimish.pages" class="btn heroBtn">
+                        <i class='bx bxs-file-blank' margin-right="10px"></i>
+                        <p>Resume</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="mainSect">
+            <div id="aboutSect" class="innerSectContainer">
+                <h2 class="sectTitle">About Me</h2>
+                <p>Since I was a kid, I have been interested in working, playing, and creating on computers. When I was 5, my grandpa gave my family his old PC running Windows 3.1, which sparked my passion for computers, video games, and the internet.</p>
+                <p>In 2013, I enrolled in Lambton College's "Computer Network Specialist" course to learn about system repair, network setup, Cisco equipment, and computer/server maintenance. Later, I pursued further education by enrolling in the "Computer Programmer" course, where I learned about HTML5/CSS3, JavaScript, Python, SQL, and self-taught Lua and Bash.</p>
+                <p>I have built a good reputation and completed several programming projects, including designing and coding a website for a local business and creating a local password generator.</p>
+                <p>In my free time, I enjoy playing video games, mountain biking, watching action or sci-fi movies, growing peppers, and experimenting with various Linux distributions.</p>
+                <p>
+                    Thank you for learning more about me. If you have any questions, feel free to <a href=#contact>contact me.</a>
+                </p>
+            </div>
+        </section>
+        <section id="skills" class="mainSect">
+            <div id="skillSect" class="innerSectContainer">
+                <h2 class="sectTitle">My Skills</h2>
+                <div class="skillGroup">
+                    <div class="box skillBox">
+                        <div>
+                            <img src="C.png" class="skill_icon"></img>
+                        </div>
+                        <p>C programming</p>
+                    </div>
+                    <div class="box skillBox">
+                        <div>
+                            <img src="java.png" class="skill_icon"></img>
+                        </div>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="box skillBox">
+                        <div>
+                            <img src="Python-logo-notext.svg.png" class="skill_icon"></img>
+                        </div>
+                        <p>Python</p>
+                    </div>
+                </div>
+                <div class="skillGroup">
+                    <div class="box skillBox">
+                        <div>
+                            <img src="html.png" class="skill_icon"></img>
+                        </div>
+                        <p>HTML</p>
+                    </div>
+                    <div class="box skillBox">
+                        <div>
+                            <img src="css.png" class="skill_icon"></img>
+                        </div>
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="skillGroup">
+                    <div class="box skillBox">
+                        <div>
+                            <img src="figma.png" class="skill_icon"></img>
+                        </div>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="mainSect">
+            <div id="projectSect" class="innerSectContainer">
+                <h2 class="sectTitle">My Projects</h2>
+                <div id="projects_grid_container">
+                    <div class="project box">
+                        <img src="portfoliofile.png" height="195" width="380" alt="Project Image">
+                        <a >
+                            <h2>Portfolio</h2>
+                        </a>
+                        <div class="project_text">
+                            <ul class="project_skills">
+                                <li class="html">HTML</li>
+                                <li class="css">CSS</li>
+                            </ul>
+                            <p class="headline visibleText">A Portfolio website that I made for the project submission</p>
+                        </div>
+                        <div class="info_btn_container">
+                            <a href="index.html" class="btn projectBtn visibleText">More Info</a>
+                        </div>
+                    </div>
+                    <div class="project box">
+                
+                        <img src="FIGMAFILE.png" height="195" width="380" alt="Project Image">
+                        <a>
+                            <h2>Food Delivering App </h2>
+                        </a>
+                        <div class="project_text">
+                            <ul class="project_skills">
+                                <li class="html">Figma</li>
+                            </ul>
+                            <p class="headline visibleText">
+                                A UI of Food Delivering app using figma tool to enhance my designing skil
+                            </p>
+                        </div>
+                        <div class="info_btn_container">
+                            <a href="https://www.figma.com/design/nn591hrFPPulTXhxVo3b5B/4?node-id=0-1&t=SwC8u4NmE39veb6f-1" class="btn projectBtn visibleText">More Info</a>
+                        </div>
+                    </div>
+                    <div class="project box">
+                        
+                        <img src="pythonfile.png" height="195" width="380" alt="Project Image">
+                        <a>
+                            <h2>Organising Date</h2>
+                        </a>
+                        <div class="project_text">
+                            <ul class="project_skills">
+                                <li class="python">Python</li>
+                            </ul>
+                            <p class="headline visibleText">Made a project with my friend which combines the data of suicides in North Eastern States of India</p>
+                        </div>
+                        <div class="info_btn_container">
+                            <a href="https://docs.google.com/presentation/d/1xApVKfg23scDIG_W5bhcShgS4gwaGf_MltbxtEMFor0/edit?usp=sharing" class="btn projectBtn visibleText">More Info</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="content">
+                    <div class="col-1">
+                        <div class="address-line">
+                            <img alt="location" src="linkedin1.svg" class="icon">
+                            <div class="contact-info">
+                                <div class="contact-info-title">Linkdin</div>
+                                <a href="https://www.linkedin.com/in/nimish-agrawal-31388b293/overlay/contact-info/#:~:text=Your%20Profile-,linkedin.com/in/nimish%2Dagrawal%2D31388b293,-Email">Nimish Agrawal</a>
+                            </div>
+                        </div>
+                        <div class="address-line">
+                            <img alt="location" src="phone.png" class="icon">
+                            <div class="contact-info">
+                                <div class="contact-info-title">Phone</div>
+                                <div>9413021456</div>
+                            </div>
+                        </div>
+                        <div class="address-line">
+                            <img alt="location" src="Email.webp" class="icon">
+                            <div class="contact-info">
+                                <div class="contact-info-title">Email</div>
+                                <div>nimish4agrawal@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <form>
+                            <div class="form-container">
+                                <h2>Send Message</h2>
+                                <div class="form-row">
+                                    <label>Full Name</label>
+                                    <div>
+                                        <input type="text" class="form-field">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label>Email</label>
+                                    <div>
+                                        <input type="text" class="form-field">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label>Type your message...</label>
+                                    <div>
+                                        <input type="text" class="form-field_message">
+                                    </div>
+                                </div>
+                                <input type="button" class="send-btn" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            ©<span id="currentYear">2024</span>
+            Nimish Agrawal 
+        </p>
+    </footer>
+</body>
+</html>
